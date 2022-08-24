@@ -1,0 +1,72 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.date {
+  color: white;
+  border-color: white;
+}
+.reEnter {
+  position: absolute;
+  top: 0.5rem;
+  font-size: 18px;
+  animation: enter 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  left: 5rem;
+  max-width: 20%;
+}
+
+.picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation: enter2 0.3s ease-in-out forwards;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+@keyframes enter {
+  from {
+    left: -30rem;
+  }
+
+  to {
+    left: 5rem;
+  }
+}
+
+@keyframes enter2 {
+  from {
+    top: -100rem;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .reEnter {
+    position: relative;
+    left: 0rem;
+    top: 0;
+    font-size: 12px;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
