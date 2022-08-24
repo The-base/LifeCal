@@ -69,7 +69,7 @@ function App() {
 
     if (type === "Months") {
       return {
-        size: isMobile ? "1.3vh" : "2vh",
+        size: isMobile ? "1.1vh" : "2vh",
         className: squareClasses.squareMonth,
       };
     }
