@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LifeCal/static/css/main.59a24375.css",
+    "main.js": "/LifeCal/static/js/main.0dbbc7dd.js",
+    "static/js/787.bb802d69.chunk.js": "/LifeCal/static/js/787.bb802d69.chunk.js",
+    "index.html": "/LifeCal/index.html",
+    "main.59a24375.css.map": "/LifeCal/static/css/main.59a24375.css.map",
+    "main.0dbbc7dd.js.map": "/LifeCal/static/js/main.0dbbc7dd.js.map",
+    "787.bb802d69.chunk.js.map": "/LifeCal/static/js/787.bb802d69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a24375.css",
+    "static/js/main.0dbbc7dd.js"
+  ]
+}
