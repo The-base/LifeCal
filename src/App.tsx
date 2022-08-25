@@ -26,6 +26,14 @@ function App() {
   const divRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const birthDateFromStorage = localStorage.getItem("birthDate");
+
+    if (birthDateFromStorage) {
+      setBirthDate(birthDateFromStorage);
+    }
+  }, []);
+
+  useEffect(() => {
     if (divRef.current) {
       console.log(divRef.current);
     }
@@ -115,6 +123,7 @@ function App() {
                     onAccept={(newValue) => {
                       setBirthDate(newValue);
                       setShowHeader(false);
+                      localStorage.setItem("birthDate", birthDate as string);
                     }}
                     renderInput={(params) => (
                       <TextField
